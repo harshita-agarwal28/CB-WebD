@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/026/410/370/large/stefan-djukic-forest-quest-crop-01.jpg?1588704839");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#box1{
+    background-color: rgb(224, 224, 165);
+    width:50%;
+    height:auto;
+    margin:1px;
+    padding:1px;
+    border : 5px solid;
+    position: center;
+    margin-left:25%;
+}
+    
+h1{
+    color: rgb(10, 0, 19);
+    font-family:monospace;
+    text-decoration:underline rgb(78, 4, 78) inherit;
+    font-weight:700;
+    text-shadow: 5px 5px 5px rgb(195, 157, 210)
+}
+
+#story-container {
+    margin: 20px;
+    margin-left:17%;
+    margin-right: 17%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ae8181;
+}
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: goldenrod;
+    border-color: rgb(240, 183, 112);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+button:hover{
+    background-color: bisque;
+}
+#story-text{
+    font-family:monospace;
+    font-size: 24px;
+    margin:10px;
+    color: rgb(3, 3, 69);
+    font-weight:500;   
+}
