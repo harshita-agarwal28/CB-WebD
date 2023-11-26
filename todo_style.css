@@ -1,0 +1,80 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    background-color: #d89393;
+    display:-moz-inline-stack;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#todo-container {
+margin-left:100px;
+margin-right: 100px;
+background-color: white;
+padding: 20px;
+border-radius: 4px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+border:double;
+border-color: goldenrod;
+border-width: 5px;
+}
+
+h2 {
+color: #25063c;
+font-size:xx-large;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding:5px;
+    margin-left:50px;
+}
+#categories {
+margin-top: 20px;
+}
+
+button {
+background-color: #c56868;
+color: #fff;
+padding: 8px 16px;
+border: inset;
+border-width: 2px;
+border-radius: 4px;
+cursor: pointer;
+border-color: black;
+margin: 5px;
+}
+
+button:hover {
+background-color: #da8c8c;
+}
+
+#delbutton{
+    text-align: right;
+}
+.task {
+background-color: #f8f8f8;
+border: 1px solid #ddd;
+padding: 20px;
+margin: 5px 0;
+cursor: grab;
+transition: background-color 0.3s;
+text-align: justify;
+}
+
+.task:hover {
+background-color: #e2e2e2;
+}
+
+.completed {
+background-color: #d3ffd3;
+text-decoration: line-through;
+}
+
+input,
+select,
+button {
+margin: 5px;
+}

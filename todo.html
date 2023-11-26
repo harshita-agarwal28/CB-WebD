@@ -1,0 +1,34 @@
+<!DOCTYPE html><!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="todo_style.css">
+  </head>
+  <body>
+    <div id="todo-container">
+      <h2>My To-Do List</h2>
+      <h3>Sort By Categories
+        <div id="categories">
+            <button onclick="filterTasks('all')">All</button>
+            <button onclick="filterTasks('work')">Work</button>
+            <button onclick="filterTasks('personal')">Personal</button>
+            <button onclick="filterTasks('shopping')">Shopping</button>
+          </div></h3>
+      <ol id="task-list" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <!-- Tasks will be added here dynamically -->
+      </ol>
+      <input type="text" id="new-task-text" placeholder="Enter new task" />
+      <input type="date" id="new-task-due-date" />
+      <select id="new-task-category">
+        <option value="work">Work</option>
+        <option value="personal">Personal</option>
+        <option value="shopping">Shopping</option>
+      </select>
+      <button onclick="addTask()">Add Task</button>
+      <button onclick="clearTasks()">Clear Tasks</button>
+    </div>
+    <script src="todos.js"></script>
+  </body>
+</html>
